@@ -1,28 +1,37 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/popup.css" />
+
     <title>Vaccine Booker</title>
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans"
-      rel="stylesheet"
-      type="text/css"
-    />
+</head>
 
-    <link rel="stylesheet" href="popup.css">
-    <script src="popup.js"></script>
-  </head>
-
-  <body>
-    <div class="modal-header">
-      <h1 class="logo">
-        <img class="logo-icon" src="icon128.png" />Vaccine Booker
-        <span class="version">(1.0.0)</span>
-      </h1>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="header">
+                <a>
+                    <img class="logo" src="/imgs/icon48.png" alt="" />
+                </a>
+                <p>Vaccine Booker</p>
+            </div>
+            <div class="search-buttons">
+                <button class="district">Search by district</button>
+                <button class="pin">Search by PIN</button>
+            </div>
+        </div>
+        <div class="tabs">
+            <button class="tab-links">Search</button>
+            <button class="tab-links inactive">Input Data</button>
+        </div>
     </div>
-    <button class="details">Profile</button>
-    <br>
-    <button class="district">Search by district</button>
-    <button class="pin">Search by pin</button>
+</body>
 
-  </body>
 </html>
